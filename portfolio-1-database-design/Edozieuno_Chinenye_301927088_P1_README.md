@@ -1,18 +1,18 @@
-#Portfolio 1 Database Design and Modelling
+# Portfolio 1 Database Design and Modelling
 
-##Case study
+## Case study
 
 Pear-C Goods Distribution runs a regional supply chain network that manages fast-moving consumer goods across multiple warehouses and retail partners. The Organisation’s database tracks product catalogs, warehouse stock levels, supplier loads of goods, and distributor orders, ensuring smooth daily operations. This system enables real-time transparency of inventory turnover to prevent stockouts.
 
-##Users
+## Users
 
 Warehouse managers check stock receipts, sales representatives record distributor orders, and system administrators manage user accounts and product categories.
 
-##Main operations
+## Main operations
 
 The database lets users record new supplier deliveries, add products to the catalog, place distributor orders, update warehouse inventory, get low-stock alerts, process returns, and pull monthly sales reports.
 
-##Business rules
+## Business rules
 
 1. Each product must have a unique Product ID and belong to one valid category.
 2. Every distributor order must be associated with a registered distributor ID and reference at least one order item.
@@ -23,6 +23,6 @@ The database lets users record new supplier deliveries, add products to the cata
 7. Loads of goods delivery dates must occur on or after the corresponding order placement date.
 8. Each distributor must maintain a status value of either Active or Inactive.
 
-##Scope
+## Scope
 
 This assessment scope includes products, varieties, warehouses, distributors, orders, and loads using fictional data for a single regional center. It excludes retail point-of-sale transactions, payroll processing, and third-party logistics vehicle tracking.
