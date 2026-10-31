@@ -1,37 +1,37 @@
 erDiagram
     direction LR
-
-    category {
+mermaid
+   ... category {
         INT category_id PK
         VARCHAR category_name UK
     }
 
-    product {
+    ...product {
         INT product_id PK
         VARCHAR product_name
         INT category_id FK
     }
 
-    distributor {
+    ...distributor {
         INT distributor_id PK
         VARCHAR distributor_name
         VARCHAR status
     }
 
-    distributor_order {
+    ...distributor_order {
         INT order_id PK
         INT distributor_id FK
         DATE order_date
         DATE delivery_date
     }
 
-    order_item {
+    ...order_item {
         INT order_id PK, FK
         INT product_id PK, FK
         INT quantity
     }
 
-    warehouse_stock {
+    ...warehouse_stock {
         INT warehouse_id PK
         INT product_id PK, FK
         INT stock_quantity
