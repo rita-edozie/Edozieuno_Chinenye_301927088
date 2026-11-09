@@ -53,3 +53,4 @@ CREATE TABLE warehouse_stock (
 );
 
 COMMIT;
+
