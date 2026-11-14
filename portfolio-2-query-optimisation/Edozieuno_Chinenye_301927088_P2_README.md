@@ -1,6 +1,6 @@
 ## Portfolio 2 Query Processing and Optimisation
 
-##Queries and results
+## Queries and results
 This portfolio analyses three core relational queries and benchmarks performance modifications:
 1. Active Distributor Orders: Joins distributor_order and distributor tables, filtering by active status and sorting chronologically with an explicit tie-breaker (order_date, order_id).
 2. Unstocked Products: Identifies products currently lacking entries in the warehouse_stock table using a NOT EXISTS subquery.
